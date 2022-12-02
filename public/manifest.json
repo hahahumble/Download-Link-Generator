@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "0.1.4",
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "storage"
+  ],
+  "icons": {
+    "128": "icon128.png",
+    "196": "icon196.png",
+    "512": "icon512.png"
+  },
+  "action": {
+    "default_icon": {
+      "192": "icon196.png"
+    },
+    "default_title": "Popup",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "download-link-generator",
+  "version": "0.1.4",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^2.0.10",
+    "@tailwindcss/forms": "^0.5.2",
+    "ace-builds": "^1.9.5",
+    "fs": "^0.0.1-security",
+    "heroicons": "^1.0.6",
+    "i18next": "^21.10.0",
+    "localforage": "^1.10.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.22.0",
+    "play-sound": "^1.1.5",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "webextensions": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
+  }
+}

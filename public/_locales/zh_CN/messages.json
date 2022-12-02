@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "下载链接生成器",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "通过 Dropbox、OneDrive 和 Google Drive 的文件分享链接，生成直接下载链接（直链）。",
+    "description": "Description of the extension."
+  }
+}

@@ -1,0 +1,12 @@
+/node_modules
+/build
+/release
+/resource
+
+config-overrides.js
+yarn-error.log
+
+.env.local
+.DS_Store
+
+.ideas

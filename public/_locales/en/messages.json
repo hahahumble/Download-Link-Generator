@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Download Link Generator",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Generate direct download link from Dropbox, Google Drive, OneDrive file share link.",
+    "description": "Description of the extension."
+  }
+}
