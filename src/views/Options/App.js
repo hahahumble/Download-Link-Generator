@@ -116,7 +116,7 @@ function App() {
   }
 
   function openHelpPage() {
-    chrome.tabs.create({url: "https://hahahumble.gitbook.io/download-link-generator/"})
+    chrome.tabs.create({url: "https://cloudstoragetools.com/"})
   }
 
 

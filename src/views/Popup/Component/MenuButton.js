@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, ArrowTopRightOnSquareIcon } from '@heroicons/react/20/solid'
+import React, {Fragment} from 'react'
+import {Menu, Transition} from '@headlessui/react'
+import {Bars3Icon, ArrowTopRightOnSquareIcon} from '@heroicons/react/20/solid'
 
 
 const menuNavigation = [
@@ -9,11 +9,11 @@ const menuNavigation = [
 ]
 
 function openFeedback() {
-  chrome.tabs.create({ url: "mailto: ooohoc@gmail.com?subject=Feedback" })
+  chrome.tabs.create({url: "mailto: support@cloudstoragetools.com?subject=Feedback"})
 }
 
 function openOptionPage() {
-  chrome.tabs.create({ url: "chrome-extension://" + chrome.runtime.id + "/options.html" })
+  chrome.tabs.create({url: "chrome-extension://" + chrome.runtime.id + "/options.html"})
 }
 
 function classNames(...classes) {
@@ -50,7 +50,7 @@ function MenuButton() {
                     'block px-4 py-2 text-sm text-gray-700 cursor-pointer dark:text-white'
                   )} onClick={item.action}>
                     <div className="flex flex-row">
-                        {item.name}
+                      {item.name}
                       <ArrowTopRightOnSquareIcon className="w-4 h-4 fill-gray-600 ml-2 mt-0.5 dark:fill-white"/>
                     </div>
                   </div>

@@ -128,7 +128,7 @@ function App() {
   }, [shareLink]);
 
   function openAboutPage() {
-    chrome.tabs.create({url: "https://hahahumble.gitbook.io/download-link-generator/"})
+    chrome.tabs.create({url: "https://cloudstoragetools.com/"})
   }
 
   function openNewWindow() {
