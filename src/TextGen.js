@@ -42,11 +42,13 @@ function checkGDriveLink(share_link) {
 
 function convertGDriveLink(enable, share_link) {
   if (enable && checkGDriveLink(share_link)) {
-    let match = share_link.match(/(\w+)(?=\/view)/g)
-    let id = match[0]
-    return `https://drive.google.com/uc?export=download&id=${id}`
+    let match = share_link.match(/\/d\/([-\w]+)/);
+    if (match && match[1]) {
+      let id = match[1];
+      return `https://drive.google.com/uc?export=download&id=${id}`;
+    }
   }
-  return share_link
+  return share_link;
 }
 
 // OneDrive
